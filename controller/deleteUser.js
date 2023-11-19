@@ -19,7 +19,7 @@ const deleteAllUserData = async (req, res) => {
     }
     else {
         res.status(400).send("User Not Found")
-    }
+      }
 
 }
 module.exports = { deleteAllUserData }
